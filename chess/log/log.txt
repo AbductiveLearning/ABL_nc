@@ -1,0 +1,54 @@
+Test Epoch: [1/1] Loss: 3.2744 ACC@1: 83.07%: 100%|████████████████████████████████████████████████████████████████████████████| 24/24 [00:00<00:00, 33.02it/s]
+
+Validation Consistent count: 589/1000=0.589000
+Predicting images...
+Detecting new class...
+
+Training mixed consistent count: 2476/4000=0.619000
+ILASP learning...
+inv_1_cond(V1,V2) :- left(V3,V1), right_forward(V3,V2).
+inv_1_cond(V1,V2) :- forward(V3,V2), left_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V3,V2), right_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V2,V3), left_forward(V3,V1).
+
+
+Test Epoch: [1/1] Loss: 0.2510 ACC@1: 87.61%: 100%|████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 21.57it/s]
+
+Validation Consistent count: 765/1000=0.765000
+[0.589, 0.765]
+Predicting images...
+Detecting new class...
+
+Training mixed consistent count: 3009/4000=0.752250
+ILASP learning...
+inv_1_cond(V1,V2) :- left(V1,V3), left_forward(V3,V2).
+inv_1_cond(V1,V2) :- left(V3,V1), right_forward(V3,V2).
+inv_1_cond(V1,V2) :- left(V3,V1), left_forward(V2,V3).
+inv_1_cond(V1,V2) :- forward(V3,V2), left_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V3,V2), right_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V2,V3), right_forward(V3,V1).
+
+
+Test Epoch: [1/1] Loss: 0.0515 ACC@1: 98.99%: 100%|████████████████████████████████████████████████████████████████████████████| 24/24 [00:01<00:00, 21.23it/s]
+
+Validation Consistent count: 977/1000=0.977000
+[0.589, 0.765, 0.977]
+Predicting images...
+Detecting new class...
+
+Training mixed consistent count: 3891/4000=0.972750
+ILASP learning...
+inv_1_cond(V1,V2) :- left(V2,V3), right_forward(V1,V3).
+inv_1_cond(V1,V2) :- left(V3,V2), left_forward(V1,V3).
+inv_1_cond(V1,V2) :- left(V3,V1), left_forward(V2,V3).
+inv_1_cond(V1,V2) :- left(V3,V2), right_forward(V3,V1).
+inv_1_cond(V1,V2) :- forward(V3,V2), left_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V3,V2), right_forward(V1,V3).
+inv_1_cond(V1,V2) :- forward(V2,V3), left_forward(V3,V1).
+inv_1_cond(V1,V2) :- forward(V2,V3), right_forward(V3,V1).
+
+
+
+
+-----------------------------------------------------------------------------------------------
+

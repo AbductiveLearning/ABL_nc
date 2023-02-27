@@ -1,0 +1,36 @@
+Test Epoch: [1/1] Loss: 2.5258 ACC@1: 89.24%: 100%|████████████████████████████████████████████████████████████████████████████| 40/40 [00:00<00:00, 58.14it/s]
+
+Consistent count: 4520/5000
+ILASP learning...
+succ(V1,V2) :- inv_1(V1), nine(V2).
+succ(V1,V2) :- five(V1), inv_1(V2).
+
+
+Test Epoch: [1/1] Loss: 0.2583 ACC@1: 89.35%: 100%|████████████████████████████████████████████████████████████████████████████| 40/40 [00:00<00:00, 45.90it/s]
+
+Consistent count: 4716/5000
+
+Consistent count after repair: 4837/5000
+ILASP learning...
+succ(V1,V2) :- eight(V2), inv_1(V1).
+succ(V1,V2) :- five(V1), inv_1(V2).
+
+
+Test Epoch: [1/1] Loss: 0.2164 ACC@1: 92.95%: 100%|████████████████████████████████████████████████████████████████████████████| 40/40 [00:00<00:00, 44.52it/s]
+
+Consistent count: 4828/5000
+
+Consistent count after repair: 4897/5000
+ILASP learning...
+succ(V1,V2) :- inv_1(V1), seven(V2).
+succ(V1,V2) :- five(V1), inv_1(V2).
+
+
+Test Epoch: [1/1] Loss: 0.2141 ACC@1: 93.57%: 100%|████████████████████████████████████████████████████████████████████████████| 40/40 [00:00<00:00, 46.06it/s]
+
+Consistent count: 4872/5000
+
+Consistent count after repair: 4923/5000
+ILASP learning...
+succ(V1,V2) :- inv_1(V1), seven(V2).
+succ(V1,V2) :- five(V1), inv_1(V2).
